@@ -1,0 +1,4 @@
+name: 'Start website'
+identifier: 'starterwebsitefortesting'
+type: 'html'
+build: true
