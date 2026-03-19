@@ -1,0 +1,4 @@
+name: 'Start website'
+identifier: 'ciac-stage2-m6-t1s1-starterwebsitefortesting'
+type: 'html'
+build: true
