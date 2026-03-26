@@ -1,0 +1,4 @@
+name: 'Final website'
+identifier: 'ciac-stage2-webdev-finalwebsite'
+type: 'html'
+build: true
