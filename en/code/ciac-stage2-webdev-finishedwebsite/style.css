@@ -1,0 +1,215 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  font-family: Verdana;
+  font-size: 16px;
+}
+
+a {
+  color: #124559;
+}
+
+h1, h2, h3, h4 {
+  color: #082533;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo img {
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-size: 28px;
+}
+
+.main-nav {
+  width: 65%;
+  float: right;
+  margin: 20px 0 0 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  float: right;
+  padding: 0;
+}
+
+.main-nav ul li {
+  float: left;
+  margin: 0;
+  padding: 8px 27px;
+  background-color: #edd8b0;
+}
+
+.main-nav .selected {
+  background-color: #c3a773;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  clear: both;
+  display: inline-block;
+  margin: 20px 0 10px 0;
+}
+
+.container p {
+  margin: 0 0 20px 0;
+}
+
+.left-column {
+  width: 48%;
+  float: left;
+}
+
+.right-column {
+  width: 48%;
+  float: right;
+}
+
+.three-columns {
+  width: 33%;
+  float: left;
+}
+
+.three-columns .inner {
+  margin: 10px 17px 10px 0;
+  padding: 22px;
+  background-color: #afdeb4;
+}
+
+.three-columns h2 {
+  margin-top: 0;
+}
+
+.three-columns img {
+  width: 100%;
+  border: 3px solid #fff;
+  box-shadow: #554f4f 4px 0px 7px 0px;
+}
+
+.more-button, input[type=submit] {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #01161e;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.more-button:hover, input[type=submit]:hover {
+  background-color: white;
+  border: 1px solid #01161e;
+  color: black;
+}
+
+input[type=submit] {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #917979;
+  border-radius: 4px;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+footer {
+  display: block;
+  clear: both;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #bcdbea;
+  text-align: center;
+}
+
+.bottom-nav ul {
+   list-style: none;
+   margin: 5px 0;
+   padding: 0;
+   text-align: center;
+}
+
+.bottom-nav ul li {
+   display: inline-block;
+   font-size: 0.9em;
+}
+
+.bottom-nav ul li a:hover {
+   text-decoration: none;
+}
+
+/* Media query for screens 768px or smaller (landscape tablets) */
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 100%;
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .main-nav ul {
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+
+  .left-column, .right-column, .three-columns {
+    width: 100%;
+  }
+
+  .three-columns img {
+    max-width: 400px;
+  }
+}
+
+/* Media query for screens 600px or smaller (phones) */
+@media only screen and (max-width: 600px) {
+  .three-columns img {
+    max-width: 300px;
+  }
+}
