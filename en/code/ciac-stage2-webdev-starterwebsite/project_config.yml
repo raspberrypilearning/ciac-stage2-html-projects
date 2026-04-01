@@ -1,0 +1,4 @@
+name: 'Starter website'
+identifier: 'ciac-stage2-webdev-starterwebsite'
+type: 'html'
+build: true
